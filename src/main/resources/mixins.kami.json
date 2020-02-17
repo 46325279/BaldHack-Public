@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "club.baldhack.mixin.client",
+  "refmap": "mixins.kami.refmap.json",
+  "client": [
+    "MixinAbstractClientPlayer",
+    "MixinGuiChat",
+    "MixinNetworkManager",
+    "MixinEntity",
+    "MixinMinecraft",
+    "MixinStateImplementation",
+    "MixinEntityRenderer",
+    "MixinEntityPlayerSP",
+    "MixinModelBoat",
+    "MixinBlockSoulSand",
+    "MixinEntityPig",
+    "MixinGuiScreen",
+    "MixinBlockLiquid",
+    "MixinRenderPlayer",
+    "MixinGuiPlayerTabOverlay",
+    "MixinC00Handshake",
+    "MixinNetHandlerPlayClient",
+    "MixinRenderLiving",
+    "MixinPlayerControllerMP",
+    "MixinEntityLlama"
+  ]
+}
